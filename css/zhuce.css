@@ -1,0 +1,244 @@
+/*
+* @Author: hy
+* @Date:   2018-02-20 21:09:58
+* @Last Modified by:   hy
+* @Last Modified time: 2018-02-24 18:05:56
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "苹方";
+}
+.bj{
+	width: 7.5rem;
+	height: 13.04rem;
+	background-image: url('../img/dlbj.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 0.3rem
+}
+.bj .bt .bt1{
+	color: white;
+	font-size: 0.36rem;
+	font-weight: bold;
+	text-align: center;
+}
+.bj .bt .bt2{
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 0.2rem;
+	text-align: center;
+	float: left;
+	margin-top: -0.1rem;
+	font-weight: lighter;
+}
+.bj .bt .zs1{
+    width: 0.18rem;
+    height: 0.02rem;
+    float: left;
+    background: white;
+    margin-left: 2.71rem;
+    margin-right: 0.1rem;
+    margin-top: 0.05rem;
+}
+.bj .bt .zs2{
+    margin-left: 0.1rem;
+}
+
+.bj .kk{
+	width: 5.4rem;
+	height: 0.74rem;
+	background: white;
+	border-radius: 0.1rem;
+	margin-top: 1.35rem;
+	margin-left: 1rem;
+	float: left;
+	position: relative;
+	border-radius: 0.1rem;
+}
+.bj .kk .yh{
+	background-image: url('../img/yhtx.png');
+    left: 0.2rem;
+	width: 0.33rem;
+	height: 0.31rem;
+	position: absolute;
+	top: 0.22rem;
+	background-size: cover;
+	background-position: center;
+}
+::-webkit-input-placeholder{
+	color: rgba(0, 0, 0, 0.3);	
+}
+.bj .searchBox{
+	width: 4.76rem;
+	height: 0.7rem;
+	float: right;
+	background: white;
+	border: 0.02rem solid rgba(255, 255, 255, 0.1);
+	padding-left: 0.6rem;
+	border-radius: 0.1rem;
+	/* margin-right: 0.24rem; */
+}
+.bj .kk2{
+	margin-top: 0.3rem;
+}
+.bj .kk1{
+	margin-top: 0.3rem;
+}
+.bj .kk1 .yh{
+	background-image: url('../img/zhuce_phone.png');
+    left: 0.23rem;
+	width: 0.24rem;
+	height: 0.37rem;
+	position: absolute;
+	top: 0.19rem;
+	background-size: cover;
+	background-position: center;
+}
+.bj .kk1 .searchBox{
+	width: 2.5rem;
+	height: 0.7rem;
+	float: right;
+	background: white;
+	border: 0.02rem solid rgba(255, 255, 255, 0.1);
+	padding-left: 0.73rem;
+	float: left;
+}
+.bj .kk1 .yz{
+	width: 1.47rem;
+	height: 0.58rem;
+	background: #ff8f2d;
+	float: right;
+	margin-right: 0.2rem;
+	border-radius: 0.1rem;
+	margin-top: 0.06rem;
+	color: white;
+	line-height: 0.58rem;
+	text-align: center;
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.bj .kk2 .yh{
+	background-image: url('../img/yhmm.png');
+    left: 0.21rem;
+	width: 0.29rem;
+	height: 0.37rem;
+	position: absolute;
+	top: 0.18rem;
+	background-size: cover;
+	background-position: center;
+}
+.bj .kk2 .mm{
+	background-image: url('../img/mmyj.png');
+    right: 0.2rem;
+	width: 0.29rem;
+	height: 0.21rem;
+	position: absolute;
+	top: 0.26rem;
+	background-size: cover;
+	background-position: center;
+}
+.bj .xk{
+	width: 0.2rem;
+	height: 0.2rem;
+	border: 0.02rem solid #f8d817;
+	float: left;
+
+}
+.bj .xk{
+	width: 0.2rem;
+	height: 0.2rem;
+	border: 0.02rem solid #f8d817;
+	float: left;
+	margin-top: 0.07rem;
+	margin-left: 1rem;
+	margin-right: 0.1rem;
+}
+.bj .zc{
+	font-size: 0.2rem;
+	color: white;
+	float: left;
+}
+
+.bj .wj{
+	font-size: 0.2rem;
+	color: #f8d817;
+	margin-right: 1.1rem;
+	float: right;
+}
+.bj .wj a{
+	font-size: 0.2rem;
+	color: #f8d817;
+	float: right;
+}
+.bj .dlan{
+	width: 5.32rem;
+	height: 0.74rem;
+	background: #ff5729;
+	border-radius: 0.38rem;
+	border: 0.04rem solid white;
+	margin-top: 7.5rem;
+	margin-left: 1rem;
+	font-size: 0.28rem;
+	color: white;
+	text-align: center;
+	line-height: 0.74rem;
+}
+.bj .xia{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 1.1rem;
+}
+.bj .xia .ss img{
+	display: block;
+	width:0.78rem;
+	height: 0.03rem;
+	margin-top: 0.15rem;
+	margin-right: 0.2rem;
+	float: left;
+	margin-left: 2.12rem;
+}
+.bj .xia .ss .rr{
+	margin-top: 0.15rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.bj .xia .s{
+	font-size: 0.26rem;
+	color: white;
+	text-align: center;
+	float: left; 
+}
+.bj .db{
+	width: 100%;
+	height: 0.42rem;
+	margin-top: 0.05rem;
+}
+.bj .db img{
+	display: block;
+	width: 0.52rem;
+	height: 0.41rem;
+	margin-left: 1.36rem;
+	float: left;
+}
+.bj .db img:nth-child(2){
+	display: block;
+	width: 0.5rem;
+	height: 0.42rem;
+	float: left;
+	margin-left: 1.68rem;
+}
+.bj .db img:nth-child(3){
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: right;
+	margin-right: 1.36rem;
+}
